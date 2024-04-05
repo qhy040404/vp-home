@@ -13,7 +13,7 @@ export default hopeTheme({
 
   logo: "favicon.ico",
 
-  repo: "qhy04/vp-home",
+  repo: "qhy040404/vp-home",
 
   docsDir: "src",
 
