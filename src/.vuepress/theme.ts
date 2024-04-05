@@ -29,11 +29,8 @@ export default hopeTheme({
     description: "一个2b",
     intro: "/intro.html",
     medias: {
-      Discord: "https://example.com",
-      Email: "mailto:info@example.com",
-      GitHub: "https://example.com",
-      QQ: "https://example.com",
-      Steam: "https://example.com",
+      Email: "mailto:qhy040404@163.com",
+      GitHub: "https://github.com/qhy040404",
     },
   },
 
