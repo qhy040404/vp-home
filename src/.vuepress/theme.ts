@@ -46,12 +46,8 @@ export default hopeTheme({
     mdEnhance: {
       align: true,
       attrs: true,
-      codetabs: true,
       component: true,
       demo: true,
-      figure: true,
-      imgLazyload: true,
-      imgSize: true,
       include: true,
       mark: true,
       stylize: [
@@ -69,7 +65,6 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
-      tabs: true,
       vPre: true,
     }
   },

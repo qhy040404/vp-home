@@ -1,1 +1,1 @@
-![](https://ys.himiku.com/rand/318490747.png)
+![](https://hoyocard.qhy04.com/gs/detail/rand/318490747.png)
