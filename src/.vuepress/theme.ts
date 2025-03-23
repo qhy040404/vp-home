@@ -9,8 +9,6 @@ export default hopeTheme({
     url: "https://qhy04.com",
   },
 
-  iconAssets: "fontawesome-with-brands",
-
   logo: "favicon.ico",
 
   repo: "qhy040404/vp-home",
@@ -34,6 +32,31 @@ export default hopeTheme({
     },
   },
 
+  markdown: {
+    align: true,
+    attrs: true,
+    component: true,
+    demo: true,
+    include: true,
+    mark: true,
+    stylize: [
+      {
+        matcher: "Recommended",
+        replacer: ({tag}) => {
+          if (tag === "em")
+            return {
+              tag: "Badge",
+              attrs: {type: "tip"},
+              content: "Recommended",
+            };
+        },
+      },
+    ],
+    sub: true,
+    sup: true,
+    vPre: true,
+  },
+
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
@@ -42,30 +65,8 @@ export default hopeTheme({
       components: ["Badge", "VPCard"],
     },
 
-    // 此处开启了很多功能用于演示，你应仅保留用到的功能。
-    mdEnhance: {
-      align: true,
-      attrs: true,
-      component: true,
-      demo: true,
-      include: true,
-      mark: true,
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({tag}) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: {type: "tip"},
-                content: "Recommended",
-              };
-          },
-        },
-      ],
-      sub: true,
-      sup: true,
-      vPre: true,
+    icon: {
+      assets: "fontawesome-with-brands"
     }
   },
 });
